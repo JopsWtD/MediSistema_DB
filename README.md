@@ -17,6 +17,11 @@ MediSistema/
     ├── Consulta 04.sql
     └── Consulta 05.sql
 ```
+Modelo conceptual y lógico
+
+El modelo conceptual identifica tres entidades centrales — médicos, empleados y pacientes — junto con sus catálogos de apoyo (estados, tipos, especialidades y horarios) y dos relaciones principales: citas médicas (médico–paciente) y vacaciones (empleado o médico).
+
+El modelo lógico traduce esas entidades en 10 tablas relacionales: 5 catálogos (estados, tipos_empleado, tipos_medico, especialidades, horarios), 3 tablas de personas (empleados, medicos, pacientes) y 2 tablas de relación (citas_medicas, vacaciones), enlazadas mediante llaves foráneas. Los diagramas están en Modelos_Conceptual_Y_Logico/.
 
 ## Ejecución
 
